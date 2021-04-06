@@ -14,7 +14,7 @@ In Command Prompt,
 
 ## Output
 1. Home Page
-User can register as member or continue as guest. A member can enjoy point redemption feature. After registration, user can login with the username and password. User can click on About to see the T&C.
+User can register as member or continue as guest. A member can enjoy 10% discount and point redemption feature. After registration, user can login with the username and password. User can click on About to see the T&C.
 
 ![Home](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Home%20Page.PNG)
 
@@ -71,7 +71,7 @@ User can click Finish Order button to view the list of items, total quantity of 
 ![Order summary](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Summary%20of%20Order.PNG)
 
 7. Cart Summary
-For member to view the amount of money after discount and the points earned.
+For member to view the amount of money after 10 % discount and the points that will be earned.
 
 ![Cart summary](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Cart%20Summary.PNG)
 
