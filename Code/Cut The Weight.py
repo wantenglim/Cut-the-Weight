@@ -63,7 +63,7 @@ def register_fail1 ():
   re_password_entry.delete(0,END)
   screen8 = Toplevel(screen)
   screen8.grid()
-  screen8.geometry("250x120+0+0")
+  screen8.geometry("350x120+0+0")
   screen8.resizable(False,False)
   screen8.configure(background='white')
   screen8.update_idletasks()
@@ -85,7 +85,7 @@ def register_fail2 ():
   re_password_entry.delete(0,END)
   screen8 = Toplevel(screen)
   screen8.grid()
-  screen8.geometry("250x120+0+0")
+  screen8.geometry("350x120+0+0")
   screen8.resizable(False,False)
   screen8.configure(background='white')
   screen8.update_idletasks()
@@ -106,12 +106,20 @@ def register_fail3 ():
   password_entry.delete(0, END)
   re_password_entry.delete(0,END)
   screen8 = Toplevel(screen)
-  screen8.geometry = "250X120"
-  screen8.resizable(0,0)
+  screen8.grid()
+  screen8.geometry("450x120+0+0")
+  screen8.resizable(False,False)
+  screen8.configure(background='white')
+  screen8.update_idletasks()
+  width = screen8.winfo_width()
+  height = screen8.winfo_height()
+  x = (screen8.winfo_screenwidth() // 2) - (width // 2)
+  y = (screen8.winfo_screenheight() // 2) - (height // 2)
+  screen8.geometry('{}x{}+{}+{}'.format(width, height, x, y))
   screen8.title ("Register Fail")
-  Label(screen8 , text="Register Fail", bg="white",fg = "red" ,font = ("calibri", 11)).pack()
+  Label(screen8 , text="Register Fail" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
   Label(screen8 , text="").pack()
-  Label(screen8 , text="Please Make Sure The Username and Password is more than 5 Characters" ,bg="white",fg = "red" ,font = ("calibri", 11)).pack()
+  Label(screen8 , text="Please Make Sure Username and Password are more than 5 Characters !" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
   Button(screen8 , text="OK" , command = delete6).pack()
 
 def register_fail4 ():
@@ -120,12 +128,20 @@ def register_fail4 ():
   password_entry.delete(0, END)
   re_password_entry.delete(0,END)
   screen8 = Toplevel(screen)
-  screen8.geometry = "250X120"
-  screen8.resizable(0,0)
+  screen8.grid()
+  screen8.geometry("370x120+0+0")
+  screen8.resizable(False,False)
+  screen8.configure(background='white')
+  screen8.update_idletasks()
+  width = screen8.winfo_width()
+  height = screen8.winfo_height()
+  x = (screen8.winfo_screenwidth() // 2) - (width // 2)
+  y = (screen8.winfo_screenheight() // 2) - (height // 2)
+  screen8.geometry('{}x{}+{}+{}'.format(width, height, x, y))
   screen8.title ("Register Fail")
-  Label(screen8 , text="Register Fail" ,bg="white",fg = "red" ,font = ("calibri", 11)).pack()
+  Label(screen8 , text="Register Fail" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
   Label(screen8 , text="").pack()
-  Label(screen8 , text="Please Make Sure The Password Contains at least 1 uppercase !" ,bg="white",fg = "red" ,font = ("calibri", 11)).pack()
+  Label(screen8 , text="Please Make Sure Password contains at least 1 uppercase !" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
   Button(screen8 , text="OK" , command = delete6).pack()
   
 def register_fail5 ():
@@ -135,7 +151,7 @@ def register_fail5 ():
   re_password_entry.delete(0,END)
   screen8 = Toplevel(screen)
   screen8.grid()
-  screen8.geometry("250x120+0+0")
+  screen8.geometry("370x120+0+0")
   screen8.resizable(False,False)
   screen8.configure(background='white')
   screen8.update_idletasks()
@@ -157,7 +173,7 @@ def register_fail6 ():
   re_password_entry.delete(0,END)
   screen8 = Toplevel(screen)
   screen8.grid()
-  screen8.geometry("250x120+0+0")
+  screen8.geometry("350x120+0+0")
   screen8.resizable(False,False)
   screen8.configure(background='white')
   screen8.update_idletasks()
@@ -174,17 +190,46 @@ def register_fail6 ():
 
 def register_fail7 ():
   global screen8
+  username_entry.delete(0, END)
+  password_entry.delete(0, END)
+  re_password_entry.delete(0,END)
+  screen8 = Toplevel(screen)
+  screen8.grid()
+  screen8.geometry("370x120+0+0")
+  screen8.resizable(False,False)
+  screen8.configure(background='white')
+  screen8.update_idletasks()
+  width = screen8.winfo_width()
+  height = screen8.winfo_height()
+  x = (screen8.winfo_screenwidth() // 2) - (width // 2)
+  y = (screen8.winfo_screenheight() // 2) - (height // 2)
+  screen8.geometry('{}x{}+{}+{}'.format(width, height, x, y))
+  screen8.title ("Register Fail")
+  Label(screen8 , text="Register Fail" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
+  Label(screen8 , text="").pack()
+  Label(screen8 , text="Please Make Sure Password contains at least 1 lowercase !" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
+  Button(screen8 , text="OK" , command = delete6).pack()
+
+def register_fail8 ():
   global screen8
   username_entry.delete(0, END)
   password_entry.delete(0, END)
   re_password_entry.delete(0,END)
   screen8 = Toplevel(screen)
-  screen8.geometry = "250X120"
-  screen8.resizable(0,0)
+  screen8.grid()
+  screen8.geometry("370x120+0+0")
+  screen8.resizable(False,False)
+  screen8.configure(background='white')
+  screen8.update_idletasks()
+  width = screen8.winfo_width()
+  height = screen8.winfo_height()
+  x = (screen8.winfo_screenwidth() // 2) - (width // 2)
+  y = (screen8.winfo_screenheight() // 2) - (height // 2)
+  screen8.geometry('{}x{}+{}+{}'.format(width, height, x, y))
   screen8.title ("Register Fail")
-  Label(screen8 , text="Register Fail" ,bg="white",fg = "red" ,font = ("calibri", 11)).pack()
+  Label(screen8 , text="Register Fail" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
   Label(screen8 , text="").pack()
-  Label(screen8 , text="Please Make Sure The Password Contains at least 1 lowercase !" ,bg="white",fg = "red" ,font = ("calibri", 11)).pack()
+  Label(screen8 , text="Please Make Sure Password do not contain symbol !" ,bg="white", fg = "red" ,font = ("calibri", 11)).pack()
   Button(screen8 , text="OK" , command = delete6).pack()
 
 
@@ -245,8 +290,8 @@ def points() :
   global point
   global fee
   all_files = os.listdir()
-  if username1+"point" in all_files :
-    file = open(username1+"point", "r")
+  if username1.lower()+"point" in all_files :
+    file = open(username1.lower()+"point", "r")
     verify=file.read().splitlines()
     point = int(verify[0])
     fee = int(verify[1])
@@ -321,7 +366,7 @@ def register_user():
   file.close()
 
 
-  file1=open(username_info +"point","w")
+  file1=open(username_info.lower() +"point","w")
   file1.write("{}".format(point)+"\n")
   file1.write("5")
   file1.close()
@@ -374,11 +419,14 @@ def registration_check() :
   elif password_check.isdigit() == True :
       register_fail5()
 
-  elif password_check.isdigit() == True :
+  elif password_check.isalpha() == True :
       register_fail6()
 
   elif password_check.isupper() == True :
       register_fail7()
+
+  elif password_check.isalnum() == False :
+      register_fail8()
   
   elif username_check.lower() not in all_files :
       password_check = password.get()
@@ -422,15 +470,14 @@ def register():
   Label(screen1, text = "Please enter details below")
   Label(screen1, text = "")
   Label(screen1, text = "Username : ",bg="white").grid(row = 0 , column = 0)
-  
   username_entry = Entry(screen1, textvariable = username)
   username_entry.grid(row = 0 , column = 1)
   Label(screen1, text = "Password : ",bg="white").grid(row = 1 , column = 0)
-  password_entry =  Entry(screen1, textvariable = password , show = "*")
+  password_entry =  Entry(screen1, textvariable = password, show = "*")
   password_entry.grid(row = 1 , column = 1)
   Label(screen1, text = "")
   Label(screen1, text = "Re-Enter Password : ", bg="white").grid(row = 2 , column = 0)
-  re_password_entry = Entry(screen1, textvariable = re_password , show = "*")
+  re_password_entry = Entry(screen1, textvariable = re_password, show = "*")
   re_password_entry.grid(row = 2 , column = 1)
   Label(screen1, text = "")
   Button(screen1, text = "Register", width = 10, height = 1, command = registration_check).grid(row = 3 , column = 0)
@@ -467,7 +514,7 @@ def login():
   username_entry1.grid(row=0 ,column=1)
   Label(screen2, text = "")
   Label(screen2, text = "Password  : ",bg="white").grid(row = 1 ,column = 0)
-  password_entry1 = Entry(screen2, textvariable = password_verify , show = "*")
+  password_entry1 = Entry(screen2, textvariable = password_verify, show = "*")
   password_entry1.grid(row= 1 , column = 1)
   Label(screen2, text = "")
   Button(screen2, text = "Login", width = 10, height = 1, command = login_verify).grid(row=3 , column = 0)
@@ -498,7 +545,7 @@ def main_screen():
   font_title = font.Font(family = "Helvetica", size = 64, weight = "bold")
   Label(text = "Cut \nThe Weight", font = font_title, bg = "black", fg = "white").grid(row=1,padx=35)
   Button(text = "Login", width = "14", command = login , font=("Tahoma",25)).grid(row=3,pady=15)
-  Button(text = "Register", width = "14", command = register ,font=("Tahoma",25)).grid(row=5,pady=15)
+  Button(text = "Register", width = "14", command = register ,font=("Tahoma",25),state =NORMAL).grid(row=5,pady=15)
   Button(text = "Guest" , width = "14" , command = guest,font=("Tahoma",25)).grid(row=7,pady=15)
   Button(text = "About",  width = "10" , command = about, font=("Tahoma",18)).grid(row=8,pady=15)
   screen.mainloop()
@@ -4008,7 +4055,10 @@ class CartSummary(Tk):
 
         # Button(Bottom)
         self.button_back = Button(text="Back", bg="yellow", fg="black",font = self.font_label_2, width = 8, height = 1, command = self.back)
-        self.button_pr = Button(text="Point Redemption", bg="#F364F3", fg="black", font = self.font_label_2, width = 15, height = 1, command = self.PointRedemptionPage)
+        if status == "guest": 
+          self.button_pr = Button(text="Point Redemption", bg="#F364F3", fg="black", font = self.font_label_2, width = 15, height = 1, command = self.PointRedemptionPage,state=DISABLED)
+        elif status == "member":
+          self.button_pr = Button(text="Point Redemption", bg="#F364F3", fg="black", font = self.font_label_2, width = 15, height = 1, command = self.PointRedemptionPage)
         self.button_pp = Button(text="Proceed to Pay", bg="#00FF09", fg="black", font = self.font_label_2, width = 15, height = 1, command = self.ProceedPay)
 
         # Label
@@ -4093,12 +4143,12 @@ class CartSummary(Tk):
             if qExit > 0:
               if status == "member":
                 if 'ok' in test :
-                  file2 = open(username1 + "point" , "w")
+                  file2 = open(username1.lower() + "point" , "w")
                   file2.write("{}".format(math.floor(rp+sum(prices)))+ "\n")
                   file2.write("0")
                   file2.close
                 else :    
-                  file2 = open(username1 + "point" , "w")
+                  file2 = open(username1.lower() + "point" , "w")
                   file2.write("{}".format(math.floor(point+sum(prices)))+ "\n")
                   file2.write("0")
                   file2.close
@@ -4123,49 +4173,23 @@ class CartSummary(Tk):
             else:
               TotalPrice = sum(prices)
             txtReceipt.insert(END,'Item(s)\t\t\t\t\t' + "Cost of Item(RM)"+ '\n')
-            if len(foods) == 0:
-              messagebox.showerror("Sorry","No item be added.")
-              if len(foodRedeem) == 1:
-                txtReceipt.insert(END,'\n\n\n'+'~For Member Redemption:~'+ '\n')
-                txtReceipt.insert(END,'{}'.format(foodRedeem[0])+'\t\t\t\t\t'+'{} points'.format(pointRedeem[0]) +'\n\n\n\n\n\n\n\n\n\n\n\n')
-            elif len(foods) == 1:
-              txtReceipt.insert(END,'{}'.format(foods[0])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[0]) +'\n\n\n\n\n\n\n\n\n')
-              if len(foodRedeem) == 1:
+            for i in range (len(foods)) :
+              txtReceipt.insert(END,'{}'.format(foods[i])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[i]) +'\n')
+              
+            if len(foodRedeem) == 1:
                 txtReceipt.insert(END,'\n\n\n'+'~For Member Redemption:~'+ '\n')
                 txtReceipt.insert(END,'{}'.format(foodRedeem[0])+'\t\t\t\t\t\t'+'{} points'.format(pointRedeem[0])+'\n\n\n')
-              if status == "member":
-                txtReceipt.insert(END, '~~~~~Member Price:~~~~~'+'\n')
-              txtReceipt.insert(END, 'Total Price: \t\t\t\t\t\tRM{:.2f}'.format(TotalPrice))
-            elif len(foods) == 2 :
-              txtReceipt.insert(END,'{}'.format(foods[0])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[0]) +'\n')
-              txtReceipt.insert(END,'{}'.format(foods[1])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[1]) +'\n\n\n\n\n\n')
+                
+            if status == "member" :
+              txtReceipt.insert(END, "\n\n" '~~Member Discount:~~  \t\t\t\t\t\t-RM{:.2f}'.format(sum(prices)*0.1)+"\n")
+              if fee == 5 :
+                txtReceipt.insert(END, '**Registration Fee:  **\t\t\t\t\t\tRM{:.2f}'.format(fee)+"\n")
+              txtReceipt.insert(END, 'Total Price: \t\t\t\t\t\tRM{:.2f}'.format(TotalPrice)+"\n")
               if len(foodRedeem) == 1:
-                txtReceipt.insert(END,'\n\n\n'+'~For Member Redemption:~'+ '\n')
-                txtReceipt.insert(END,'{}'.format(foodRedeem[0])+'\t\t\t\t\t\t'+'{} points'.format(pointRedeem[0])+'\n\n\n')
-              if status == "member":
-                txtReceipt.insert(END, '~~~~~Member Price:~~~~~'+'\n')
-              txtReceipt.insert(END, 'Total Price: \t\t\t\t\t\tRM{:.2f}'.format(TotalPrice))
-            elif len(foods) == 3 :
-              txtReceipt.insert(END,'{}'.format(foods[0])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[0]) +'\n')
-              txtReceipt.insert(END,'{}'.format(foods[1])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[1]) +'\n')
-              txtReceipt.insert(END,'{}'.format(foods[2])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[2]) +'\n\n\n\n\n')
-              if len(foodRedeem) ==1:
-                txtReceipt.insert(END,'\n\n\n'+'~For Member Redemption:~'+ '\n')
-                txtReceipt.insert(END,'{}'.format(foodRedeem[0])+'\t\t\t\t\t\t'+'{} points'.format(pointRedeem[0])+ '\n\n\n')
-              if status == "member":
-                txtReceipt.insert(END, '~~~~~Member Price:~~~~~'+'\n')
-              txtReceipt.insert(END, 'Total Price: \t\t\t\t\t\tRM{:.2f}'.format(TotalPrice))
+                txtReceipt.insert(END, 'Point Left: \t\t\t\t\t\t{:.0f}'.format(rp+math.floor(sum(prices))))
             else :
-              txtReceipt.insert(END,'{}'.format(foods[0])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[0]) +'\n')
-              txtReceipt.insert(END,'{}'.format(foods[1])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[1]) +'\n')
-              txtReceipt.insert(END,'{}'.format(foods[2])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[2]) +'\n')
-              txtReceipt.insert(END,'{}'.format(foods[3])+'\t\t\t\t\t\t'+'{:.2f}'.format(prices[3]) +'\n\n\n')
-              if len(foodRedeem) ==1:
-                txtReceipt.insert(END,'\n\n\n'+'~For Member Redemption:~'+ '\n')
-                txtReceipt.insert(END,'{}'.format(foodRedeem[0])+'\t\t\t\t\t\t'+'{} points'.format(pointRedeem[0])+ '\n\n\n')
-              if status == "member":
-                txtReceipt.insert(END, '~~~~~Member Price:~~~~~'+'\n')
-              txtReceipt.insert(END, 'Total Price: \t\t\t\t\t\tRM{:.2f}'.format(TotalPrice))
+              txtReceipt.insert(END, "\n\n"'Total Price: \t\t\t\t\t\tRM{:.2f}'.format(TotalPrice))
+
 
         #==================================TITLE======================================#
         lblTitle = Label(Tops, font=('Times New Roman', 36, 'bold'),bg="white",fg='black', text= "E-Receipt", bd=5)
@@ -4245,7 +4269,7 @@ class PointRedemptionPage(Tk):
         self.canvas_food3 = Canvas(border3, width = 150 , height = 150)
         self.layer_food3= self.canvas_food3.create_image(100, 70,image = self.img_food_name3)
         self.label_food_name3 = Label(border3,text = "Muesli With \nRaspberries", font = self.font_label_2, justify = LEFT)
-        self.label_food_price3 = Label(border3,text = "380 ponits", font = self.font_label_2, justify = LEFT)
+        self.label_food_price3 = Label(border3,text = "380 points", font = self.font_label_2, justify = LEFT)
         self.button_select3 = Button(border3,text="Select", bg="yellow", fg="black", command=self.selectRedeem3)
 
         
