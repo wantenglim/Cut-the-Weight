@@ -55,7 +55,7 @@ If user click select button, it will show the details of beverage selected.
 
 5. Set Meal Page
 
-If user click SET MEAL button, it will show different set meal page(Breakfast,Lunch,Dinner) based on timestamp. 
+If user click SET MEAL button, it will show different set meal page(Breakfast, Lunch, Dinner) based on timestamp. 
 
 ![Set meal](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Set%20Meal.PNG)
 
@@ -86,7 +86,7 @@ For member to view the amount of money after 10 % discount and the points that w
 9. Point Redemption
 
 If user is a member, they have the Point Redemption button to click and select the desired food to redempt if the points are enough.
-Else, the Point redemption button is disabled.
+Else, the Point Redemption button is disabled.
 
 ![Point Redemption](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Point%20Redemption.PNG)
 
