@@ -92,6 +92,6 @@ Else, the Point Redemption button is disabled.
 
 10. E-Receipt
 
-At the end, user can click Proceed to Pay button to print their e-receipt.
+At the end, user can click Proceed to Pay button to print their e-receipt and exit.
 
 ![E-Receipt](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/E-Receipt.PNG)
