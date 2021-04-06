@@ -1,69 +1,86 @@
 # Cut-the-Weight
 (Group Mini IT Project 18/19)
+
 A vending machine program which can order food, beverage and set meal.
 
 ## How To Run
 In Command Prompt,
+
 --> python "Cut The Weight.py"
 
 ## Program Description
-User Interface: Tkinter
-Register/Login/Point: file
+- User Interface: Tkinter
+- Register/Login/Point: file
 
 ## Output
 1. Home Page
 User can register as member or continue as guest. A member can enjoy point redemption feature. After registration, user can login with the username and password. User can click on About to see the T&C.
 
-![Home]()
+![Home](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Home%20Page.PNG)
+
+![Register](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Register.PNG)
+
+![Login](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Login.PNG)
+
+Term & Condition
+
+![About](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/About.PNG)
 
 2. Main Menu
 After login, the machine will show main menu.
 
+![Main menu](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Main%20Menu.PNG)
+
 3. Food Page
 If user click FOOD button, it will show food page.
 
-![Food]()
+![Food](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Food.PNG)
 
 If user click select button, it will show the details of food selected.
 
-![Food details]()
+![Food details](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Food%20Details.PNG)
 
 4. Beverage Page
 If user click BEVERAGE button, it will show beverage page.
 
-![Beverage]()
+![Beverage](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Beverage.PNG)
 
 If user click select button, it will show the details of beverage selected.
 
-![Beverage details]()
+![Beverage details](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Beverage%202.PNG)
 
 5. Set Meal Page
 If user click SET MEAL button, it will show different set meal page(Breakfast,Lunch,Dinner) based on timestamp. 
 
-![Set meal]()
+![Set meal](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Set%20Meal.PNG)
 
 If user click select button, it will show the details of set meal selected.
 
-![Set meal details]()
+![Set meal details](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Set%20Meal%203.PNG)
 
 6. Shopping Cart
 User can click shopping cart icon at the top left corner to view/cancel their order. 
 
 Currently, the machine can only select 4 items and each item cannot be added repeatedly.
 
-![Shopping cart]()
+![Shopping cart](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Shopping%20Cart.PNG)
 
-7. Summary of Cart
+7. Summary of Order
 User can click Finish Order button to view the list of items, total quantity of item(s), total calories and total steps needed to bur calories.
 
-![Summary cart]()
+![Order summary](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Summary%20of%20Order.PNG)
+
+7. Cart Summary
+For member to view the amount of money after discount and the points earned.
+
+![Cart summary](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Cart%20Summary.PNG)
 
 8. Point Redemption
 If user is a member, they have the Point Redemption button to click and select the desired food to redempt if the points are enough.
 
-![Point Redemption]()
+![Point Redemption](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/Point%20Redemption.PNG)
 
 9. E-Receipt
 At the end, user can click Proceed to Pay button to print their e-receipt.
 
-![E-Receipt]()
+![E-Receipt](https://github.com/wantenglim/Cut-the-Weight/blob/main/Images/E-Receipt.PNG)
